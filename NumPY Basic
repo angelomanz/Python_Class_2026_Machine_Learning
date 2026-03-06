@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMOWlO3mmLtf0KLdPS9dDCY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/angelomanz/Python_Class_2026_Machine_Learning/blob/main/NumPY%20Basic\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "neFY-b7ghrzl",
+        "outputId": "01b7f22a-8f32-42a7-901c-9824bba91b27"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1 2 3 4 5]\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "arr = np.array([1, 2, 3, 4, 5])\n",
+        "\n",
+        "print(arr)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (arr * 2)\n",
+        "print (arr + 10)\n",
+        "print (arr ** 2)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uQWO2zvIh-ib",
+        "outputId": "ca1b8404-da27-40cc-d033-08a55e86b73b"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[ 2  4  6  8 10]\n",
+            "[11 12 13 14 15]\n",
+            "[ 1  4  9 16 25]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
